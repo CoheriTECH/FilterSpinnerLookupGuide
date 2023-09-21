@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spa Filter Spinner Lookup Guide</title>
+	
+	<script>
+        function openPopup() {
+            // Calculate the width and height of the user's screen
+            const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            const screenHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
+            // Open a new window and resize it to the screen size
+            const popupWindow = window.open('file:///D:/Google%20Drive/COHERITECH/Spa%20Filter%20Spinner%20Work/Filter%20Spinner%20v1%20Size%20Guide%20Lookup/FilterSpinnerLookupGuide.html', '_blank', `width=${screenWidth}, height=${screenHeight}`);
+            
+            // Focus the new window
+            if (popupWindow) {
+                popupWindow.focus();
+            }
+        }
+    </script>
+	
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #fff; /* White background */
+        }
+        .content-box {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0; /* Light gray background */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            max-width: 600px; /* Adjust the max width as needed */
+        }
+        h1 {
+            font-weight: bold;
+        }
+        select {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content-box">
+        <h1 style="font-size: 38px; color: #2671af; text-shadow: 1.5px 1.5px 3.5px rgba(0, 0, 0, 0.5); -webkit-text-stroke: 0.15px #f0f0f0;"> Spa Filter Spinner Lookup Guide</h1>
+        <label for="brandSelect">Select Hot Tub Brand:</label>
+        <select id="brandSelect">
+            <option value="">Select Brand</option>
+        </select>
+        <div id="filterList">
+            <!-- Filter options will be displayed here -->
+        </div>
+		
+		<p style="font-size: 12px; font-style: italic;">(NOTE: all measurements in inches)</p>
+    </div>
+
+    <script>
+        const brandSelect = document.getElementById("brandSelect");
+        const filterList = document.getElementById("filterList");
+        let data = [];
+        let brandList = [];
+
+        // Load the brand list from "brand_list.json"
+        fetch("https://store-cp2rr.mybigcommerce.com/product_images/coheritech/spabrand_list_r1.json")
+            .then(response => response.json())
+            .then(jsonData => {
+                brandList = jsonData;
+                // Populate the dropdown with brand options
+                brandList.forEach(brand => {
+                    const option = document.createElement("option");
+                    option.value = brand;
+                    option.textContent = brand;
+                    brandSelect.appendChild(option);
+                });
+            })
+            .catch(error => console.error("Error loading brand list:", error));
+
+        // Load the JSON data from a file (e.g., "data.json")
+        fetch("https://store-cp2rr.mybigcommerce.com/product_images/coheritech/filtersizes_data_r2.json")
+            .then(response => response.json())
+            .then(jsonData => {
+                data = jsonData; // Store the data once it's loaded
+            })
+            .catch(error => console.error("Error loading data:", error));
+
+        brandSelect.addEventListener("change", updateFilterList);
+
+
+
+function updateFilterList() {
+    const selectedBrand = brandSelect.value;
+    const filters = data.filter(item => item.brand === selectedBrand);
+
+    let filterHTML = "";
+    if (filters.length === 0) {
+        filterHTML = "<p>No filters found for this brand.</p>";
+    } else {
+	
+		// Sort the filters by the "opening" property
+        filters.sort((a, b) => (a.opening > b.opening) ? 1 : ((b.opening > a.opening) ? -1 : 0));
+		
+        // Display the brand name only once
+        filterHTML += `<hr style="height: 4px; background-color: #3498db; border: none;"><h1><strong>${filters[0].brand}</strong></h1>`;
+        filters.forEach(filter => {
+            // Display diameter in bold
+            filterHTML += `<p><strong>Filter Diameter:</strong> ${filter.diameter}&nbsp;in.</p>`;
+            // Display other specs on separate lines
+            filterHTML += `<p><strong>Opening Diameter:</strong> ${filter.opening}&nbsp;in. <br>`;
+            filterHTML += `<strong>Opening Type:</strong> ${filter.type}</p>`;
+            filterHTML += `<center><p style="background-color: #3498db; width: 70%; padding-top: 10px; padding-bottom: 10px; color: white; font-size: 20px; align: center;"><strong>Filter Spinner Size:</strong>  <span style="font-style: bold;">${filter.plug}</span></p></center>`;
+            // Add a horizontal line to separate filter entries
+            filterHTML += "<hr>";
+        });
+    }
+
+    filterList.innerHTML = filterHTML;
+	
+}
+
+    </script>
+	
+	
+</body>
+</html>
