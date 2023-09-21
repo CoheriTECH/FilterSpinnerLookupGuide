@@ -68,7 +68,7 @@
         let brandList = [];
 
         // Load the brand list from "brand_list.json"
-        fetch("https://store-cp2rr.mybigcommerce.com/product_images/coheritech/spabrand_list_r1.json")
+        fetch("https://raw.githubusercontent.com/CoheriTECH/FilterSpinnerLookupGuide/main/spabrand_list_r1.json")
             .then(response => response.json())
             .then(jsonData => {
                 brandList = jsonData;
@@ -83,7 +83,7 @@
             .catch(error => console.error("Error loading brand list:", error));
 
         // Load the JSON data from a file (e.g., "data.json")
-        fetch("https://store-cp2rr.mybigcommerce.com/product_images/coheritech/filtersizes_data_r2.json")
+        fetch("https://raw.githubusercontent.com/CoheriTECH/FilterSpinnerLookupGuide/main/filtersizes_data_r2.json")
             .then(response => response.json())
             .then(jsonData => {
                 data = jsonData; // Store the data once it's loaded
