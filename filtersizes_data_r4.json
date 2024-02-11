@@ -1,0 +1,814 @@
+[
+  {
+    "brand": "American Spas",
+    "diameter": 6.0,
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "American Spas",
+    "diameter": 5.0,
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Aquaterra Spas",
+    "diameter": 5.3125,
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Arctic Spas",
+    "diameter": "4.25 | 5.0",
+    "opening": "2.0 | 2.125",
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Artesian Spas",
+    "diameter": 6.0,
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Artesian Spas",
+    "diameter": "5.0  | 6.75 | 7 ",
+    "opening": "2.125 | 2.0 ",
+    "type": "Open or Threaded",
+    "plug": 11
+  },
+  {
+    "brand": "Baja Spas",
+    "diameter": 5.0,
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Beachcomber",
+    "diameter": 5.0,
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Blue Ridge Spas",
+    "diameter": 4.625,
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Bullfrog Spas",
+    "diameter": 6.0,
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Bullfrog Spas",
+    "diameter": "5.0 | 8.0 ",
+    "opening": "2.125 | 2.0 ",
+    "type": "Open or Threaded",
+    "plug": 11
+  },
+  {
+    "brand": "Cal Spas",
+    "diameter": 4.625,
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Cal Spas",
+    "diameter": "4.625 | 5.0 | 5.1875 | 5.3125 | 6.75",
+    "opening": "2.0 | 2.125",
+    "type": "Threaded or Open",
+    "plug": 11
+  },
+  {
+    "brand": "Cal Spas",
+    "diameter": 8.5,
+    "opening": 4.0,
+    "type": "Open",
+    "plug": "Not Currently Available"
+  },
+  {
+    "brand": "Cal Spas",
+    "diameter": 10,
+    "opening": 6.0,
+    "type": "Open",
+    "plug": "Not Currently Available"
+  },
+  {
+    "brand": "Cal Spas",
+    "diameter": 7.0,
+    "opening": 3.0,
+    "type": "Open",
+    "plug": 13.5
+  },
+  {
+    "brand": "Caldera Spas",
+    "diameter": "5.0 / 7.0 ",
+    "opening": "2.125 / 2.0 ",
+    "type": "Open / Slip Fitting",
+    "plug": 11
+  },
+  {
+    "brand": "Caldera Spas",
+    "diameter": 7,
+    "opening": 2.6875,
+    "type": "Open",
+    "plug": 13.5
+  },
+  {
+    "brand": "Caldera Spas",
+    "diameter": 8,
+    "opening": 3.625,
+    "type": "Open",
+    "plug": "Not Currently Available"
+  },
+  {
+    "brand": "Caldera Spas",
+    "diameter": 8,
+    "opening": 3.125,
+    "type": "Open",
+    "plug": 13.5
+  },
+  {
+    "brand": "Caldera Spas",
+    "diameter": 8.5,
+    "opening": 3,
+    "type": "Open",
+    "plug": 13.5
+  },
+  {
+    "brand": "Catalina Spas",
+    "diameter": 6.0,
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Catalina Spas",
+    "diameter": 5.0,
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Clearwater Spas",
+    "diameter": 6.0,
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Clearwater Spas",
+    "diameter": "5.0 / 5.3125 ",
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Coast Spas",
+    "diameter": "5.0 / 5.3125 ",
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Coleman Spas",
+    "diameter": 7,
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Coleman Spas",
+    "diameter": "4.625 / 5.0 / 7.0 / 8.0",
+    "opening": "2.0 / 2.125 ",
+    "type": "Threaded / Open",
+    "plug": 11
+  },
+  {
+    "brand": "Dimension One Spas",
+    "diameter": 4.625,
+    "opening": 1.25,
+    "type": "Threaded",
+    "plug": 7
+  },
+  {
+    "brand": "Dimension One Spas",
+    "diameter": "4.625 / 7.0 ",
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Dimension One Spas",
+    "diameter": "5.0 / 7.0 / 7.125  ",
+    "opening": "2.125 / 2.0 ",
+    "type": "Open / Threaded",
+    "plug": 11
+  },
+  {
+    "brand": "Dimension One Spas",
+    "diameter": 5.5,
+    "opening": 2.875,
+    "type": "Open",
+    "plug": 13.5
+  },
+  {
+    "brand": "Dimension One Spas",
+    "diameter": 10,
+    "opening": 6.0,
+    "type": "Open",
+    "plug": "Not Currently Available"
+  },
+  {
+    "brand": "Down East Spas",
+    "diameter": "See Master Spas",
+    "opening": "See Master Spas",
+    "type": "See Master Spas",
+    "plug": "See Master Spas"
+  },
+  {
+    "brand": "Dream Maker Spas",
+    "diameter": 4.625,
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Dynasty Spas",
+    "diameter": "4.625 / 6.0 ",
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Dynasty Spas",
+    "diameter": "5 / 5.125 ",
+    "opening": "2.125 / 2.0 ",
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Emerald Spas",
+    "diameter": 3,
+    "opening": 1.0,
+    "type": "Open",
+    "plug": 6
+  },
+  {
+    "brand": "Emerald Spas",
+    "diameter": "3.0 / 4.625 / 5.0 ",
+    "opening": "2.125 / 2.0",
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Endless Pools",
+    "diameter": 10,
+    "opening": 6.0,
+    "type": "Open",
+    "plug": "Not Currently Available"
+  },
+  {
+    "brand": "Endless Pools",
+    "diameter": 8,
+    "opening": 3.0,
+    "type": "Open",
+    "plug": 13.5
+  },
+  {
+    "brand": "Four Winds Spa",
+    "diameter": "5.0 / 7.0 ",
+    "opening": "2.125 / 2.0 ",
+    "type": "Open / Threaded",
+    "plug": 11
+  },
+  {
+    "brand": "Freeflow Spas",
+    "diameter": "5.0 / 5.3 ",
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Great Lakes Spas",
+    "diameter": 5.0,
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Hot Spot",
+    "diameter": 5.0,
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Hot Spring Spas",
+    "diameter": "4.625 / 6.0 ",
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Hot Spring Spas",
+    "diameter": "5.0 / 5.125 / 6.0 ",
+    "opening": "2.125 / 2.0",
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Hot Spring Spas",
+    "diameter": "6.375 / 8.5 ",
+    "opening": 3,
+    "type": "Open",
+    "plug": 13.5
+  },
+  {
+    "brand": "Hydro Pool Industries",
+    "diameter": 5.0,
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Hydro Spa",
+    "diameter": "4.625 / 6.0 ",
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Hydro Spa",
+    "diameter": 5.0,
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Intex",
+    "diameter": "3.5 / 3.125 ",
+    "opening": "1.1875 / 1.125 ",
+    "type": "Open",
+    "plug": 7
+  },
+  {
+    "brand": "Intex",
+    "diameter": 5.75,
+    "opening": 1.875,
+    "type": "Open",
+    "plug": 10
+  },
+  {
+    "brand": "Intex",
+    "diameter": 4.25,
+    "opening": 2,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Jacuzzi",
+    "diameter": 2.875,
+    "opening": 1.0,
+    "type": "Open",
+    "plug": 6
+  },
+  {
+    "brand": "Jacuzzi",
+    "diameter": 4.25,
+    "opening": 2.0,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Jacuzzi",
+    "diameter": "4.625 / 5.0 / 5.1875 / 5.75  / 6.0  / 6.75 ",
+    "opening": "2.0 / 2.125 ",
+    "type": "Threaded / Open",
+    "plug": 11
+  },
+  {
+    "brand": "Jacuzzi",
+    "diameter": 5.0,
+    "opening": 2.375,
+    "type": "Open",
+    "plug": 12
+  },
+  {
+    "brand": "Jacuzzi",
+    "diameter": 7,
+    "opening": 3.5,
+    "type": "Open",
+    "plug": "Not Currently Available"
+  },
+  {
+    "brand": "Jacuzzi",
+    "diameter": 7.8125,
+    "opening": 4,
+    "type": "Open",
+    "plug": "Not Currently Available"
+  },
+  {
+    "brand": "Jacuzzi",
+    "diameter": 10,
+    "opening": 6.0,
+    "type": "Open",
+    "plug": "Not Currently Available"
+  },
+  {
+    "brand": "Jacuzzi",
+    "diameter": "7.0  / 8.5 ",
+    "opening": 3,
+    "type": " Open w/Step",
+    "plug": 13.5
+  },
+  {
+    "brand": "Leisure Bay Spas / Rec Warehouse",
+    "diameter": "4.625 / 6.0 ",
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Leisure Bay Spas / Rec Warehouse",
+    "diameter": "4.25 / 5.0 / 5.25 ",
+    "opening": "2.0 / 2.125",
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Leisure Bay Spas / Rec Warehouse",
+    "diameter": 10,
+    "opening": 6.0,
+    "type": "Open",
+    "plug": "Not Currently Available"
+  },
+  {
+    "brand": "Leisure Bay Spas / Rec Warehouse",
+    "diameter": "7.5 / 8.5 ",
+    "opening": "3.0 / 3.125 ",
+    "type": "Open",
+    "plug": 13.5
+  },
+  {
+    "brand": "Maax Spas",
+    "diameter": 5.625,
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Maax Spas",
+    "diameter": "5.0 / 5.25 / 8.0",
+    "opening": "2.125 / 2.0 ",
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Marquis",
+    "diameter": 5.1875,
+    "opening": 1.625,
+    "type": "Open",
+    "plug": 9
+  },
+  {
+    "brand": "Marquis",
+    "diameter": "5.0 / 5.25",
+    "opening": "2.125 / 2.0",
+    "type": "Open / Threaded",
+    "plug": 11
+  },
+  {
+    "brand": "Master Spas",
+    "diameter": 4.625,
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Master Spas",
+    "diameter": 4.625,
+    "opening": 2,
+    "type": "Open",
+    "plug": 10
+  },
+  {
+    "brand": "Master Spas",
+    "diameter": "4.625 / 5.0 / 6.0 / 7.0 / 8.0",
+    "opening": 2,
+    "type": "Threaded",
+    "plug": 11
+  },
+  {
+    "brand": "Master Spas",
+    "diameter": 3.875,
+    "opening": 2.1875,
+    "type": "Open",
+    "plug": 12
+  },
+  {
+    "brand": "Master Spas",
+    "diameter": "7.0 / 8.0 ",
+    "opening": "4.125 / 4.0",
+    "type": "Open",
+    "plug": "Not Currently Available"
+  },
+  {
+    "brand": "Morgan Spas",
+    "diameter": 5.0,
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Morgan Spas",
+    "diameter": 5.0,
+    "opening": 2.375,
+    "type": "Open",
+    "plug": 12
+  },
+  {
+    "brand": "Nordic Hot Tubs",
+    "diameter": 5.0,
+    "opening": "2.0 / 2.125 ",
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Nordic Hot Tubs",
+    "diameter": 5.0,
+    "opening": "2.0 / 2.125 ",
+    "type": "Threaded",
+    "plug": 10
+  },
+  {
+    "brand": "PDC Spas",
+    "diameter": "4.25 / 5.0 ",
+    "opening": "2.0 / 2.125  ",
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "PDC Spas",
+    "diameter": 7,
+    "opening": 3,
+    "type": "Open",
+    "plug": 13.5
+  },
+  {
+    "brand": "QCA Spas",
+    "diameter": "5.0 / 6.0 ",
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Royal Spas",
+    "diameter": 5.0,
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Serenity Spas",
+    "diameter": 5.0,
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Signature Spas",
+    "diameter": 5.0,
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Softub",
+    "diameter": "4.625 / 6.0 ",
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Sonoma Spas",
+    "diameter": "4.25 / 4.625 / 5.0 ",
+    "opening": "2.0 / 2.125 ",
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Sonoma Spas",
+    "diameter": "5.50 / 7.0 ",
+    "opening": "2.875 / 3.0 ",
+    "type": "Open",
+    "plug": 13.5
+  },
+  {
+    "brand": "South Pacific Spas",
+    "diameter": 5.0,
+    "opening": "2.0",
+    "type": "Open / Threaded",
+    "plug": 11
+  },
+  {
+    "brand": "Spa Crest",
+    "diameter": 5.0,
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Spa Manufacturers Inc",
+    "diameter": 4.625,
+    "opening": 2,
+    "type": "Open",
+    "plug": 10
+  },
+  {
+    "brand": "Spa Manufacturers Inc",
+    "diameter": 5.0,
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Strong Industries",
+    "diameter": 4.625,
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Strong Industries",
+    "diameter": 5.0,
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Sundance Spas",
+    "diameter": "4.625 / 6.0 / 7.0 ",
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Sundance Spas",
+    "diameter": "4.625 / 5.0 / 5.19 / 7.50 / 8.0 ",
+    "opening": "2.0 / 2.125",
+    "type": "Open / Threaded",
+    "plug": 11
+  },
+  {
+    "brand": "Sundance Spas",
+    "diameter": "7.5 / 8.5 ",
+    "opening": 2.5,
+    "type": "Open (Beveled Edge)",
+    "plug": 12
+  },
+  {
+    "brand": "Sundance Spas",
+    "diameter": 7.5,
+    "opening": 2.625,
+    "type": "Open",
+    "plug": 13.5
+  },
+  {
+    "brand": "Sunrise Spas",
+    "diameter": "6.0 / 7.0 ",
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Sunrise Spas",
+    "diameter": 5.0,
+    "opening": "2.125 / 2.0 ",
+    "type": "Open / Threaded",
+    "plug": 11
+  },
+  {
+    "brand": "Superior Spas",
+    "diameter": 6.0,
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Superior Spas",
+    "diameter": 6.0,
+    "opening": 1.75,
+    "type": "Male Slip Fitting",
+    "plug": 9
+  },
+  {
+    "brand": "Superior Spas",
+    "diameter": "4.25 / 5.0 ",
+    "opening": 2,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Thermo Spas",
+    "diameter": 6.0,
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Thermo Spas",
+    "diameter": "4.25 / 5.0 ",
+    "opening": "2.0 ",
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Tiger River",
+    "diameter": 8.5,
+    "opening": 3,
+    "type": "Open",
+    "plug": 13.5
+  },
+  {
+    "brand": "Tuff Spas",
+    "diameter": 6.0,
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Tuff Spas",
+    "diameter": 5.0,
+    "opening": "2.0 ",
+    "type": "Open / Threaded",
+    "plug": 11
+  },
+  {
+    "brand": "Viking Spas",
+    "diameter": 6.0,
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Viking Spas",
+    "diameter": 5.0,
+    "opening": 2.125,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Vita Spas",
+    "diameter": "4.625 / 6.0 / 7.0 ",
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 8
+  },
+  {
+    "brand": "Vita Spas",
+    "diameter": "4.625 / 7.0  / 8.5 ",
+    "opening": 2,
+    "type": "Open",
+    "plug": 10
+  },
+  {
+    "brand": "Vita Spas",
+    "diameter": "5.0 / 8.5 ",
+    "opening": "2.0 ",
+    "type": "Open / Threaded",
+    "plug": 11
+  },
+  {
+    "brand": "Vita Spas",
+    "diameter": 7,
+    "opening": 3,
+    "type": "Open",
+    "plug": 13.5
+  },
+  {
+    "brand": "Wellis Spas",
+    "diameter": 5,
+    "opening": 2,
+    "type": "Open",
+    "plug": 11
+  },
+  {
+    "brand": "Wellis Spas",
+    "diameter": 6,
+    "opening": 1.5,
+    "type": "Threaded",
+    "plug": 7
+  }
+]
