@@ -112,6 +112,13 @@
     "plug": 13.5
   },
   {
+    "brand": "Cal Spas",
+    "diameter": 5.0,
+    "opening": 1.75,
+    "type": "Internal Threaded",
+    "plug": 10
+  },
+  {
     "brand": "Caldera Spas",
     "diameter": "5.0 / 7.0 ",
     "opening": "2.125 / 2.0 ",
